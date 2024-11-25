@@ -43,12 +43,11 @@ class Person:
 
 # Przykład użycia
 if __name__ == "__main__":
-    # Tworzenie obiektu
     person = Person(
-        first_name="Jan",
-        last_name="Kowalski",
-        address="Ul. Kwiatowa 12, Warszawa",
-        postal_code="00-001",
+        first_name="Arkadiusz",
+        last_name="Kowalczyk",
+        address="Ul. Ulicowa 13, Kraków",
+        postal_code="30-001",
         pesel="12345678901"
     )
 
