@@ -77,8 +77,8 @@ class AhoCorasick:
 
 
 if __name__ == "__main__":
-    words = ["he", "she", "hers", "his"]
-    text = "ahishers"
+    words = ["ab", "bcc", "ba", "ccb", "abbc"]
+    text = "abbccbaabccbaccabccbba"
 
     aho_corasick = AhoCorasick(words)
     result = aho_corasick.search_words(text)
